@@ -114,6 +114,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 11px 32px;
 }
 .button.filters:hover,
 .button.filters:focus {
