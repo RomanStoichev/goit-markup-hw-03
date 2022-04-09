@@ -183,7 +183,7 @@ a {
 .container {
   width: 1170px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -191,7 +191,7 @@ a {
 .section.desc {
   width: 1170px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
 
@@ -205,7 +205,7 @@ a {
 .section {
   width: 1170px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
@@ -238,7 +238,7 @@ ul {
 }
 .portfolio {
   width: 1170 px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-top: 0;
   margin-bottom: 94px;
 }
