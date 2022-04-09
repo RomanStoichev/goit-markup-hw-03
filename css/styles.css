@@ -5,6 +5,7 @@
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #f5f4fa;
   --primary-white-color: #ffffff;
+  --background-color-hero-footer: #2f303a;
 }
 /* body */
 body {
@@ -98,6 +99,10 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   margin: 0, auto;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
 }
 .button.filters {
   background-color: var(--secondary-background-color);
@@ -151,9 +156,34 @@ a {
   letter-spacing: 0.06em;
 }
 .portfolio-text {
-  /* color: var(--title-text-color); */
+  color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+/* conteiner  выравниевание на странице */
+.container {
+  width: 1170px;
+
+  outline: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.hero {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+
+  background-color: var(--background-color-hero-footer);
 }
