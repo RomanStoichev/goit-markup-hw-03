@@ -163,7 +163,9 @@ a {
   letter-spacing: 0.03em;
 }
 /* conteiner  выравниевание на странице */
-.container {
+.container,
+.section.desc,
+.section {
   width: 1170px;
 
   outline: 2px solid tomato;
@@ -171,9 +173,7 @@ a {
   margin-right: auto;
 }
 
-.container p {
-  margin: 0;
-}
+.container p,
 h1,
 h2,
 h3 {
@@ -181,9 +181,13 @@ h3 {
 }
 
 .hero {
-  position: absolute;
   width: 1600px;
   height: 600px;
 
+  background-color: var(--background-color-hero-footer);
+}
+.footer {
+  width: 1600px;
+  height: 252px;
   background-color: var(--background-color-hero-footer);
 }
