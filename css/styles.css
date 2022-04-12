@@ -30,11 +30,16 @@ body {
 }
 /* nav, contacts */
 .site-nav .link {
-  color: var(--title-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -42,11 +47,16 @@ body {
   color: var(--accent-color);
 }
 .contact-nav .link {
-  color: var(--primary-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus {
@@ -79,8 +89,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.03em;
 }
-.section-title h2 {
-}
+
 .section h2 {
   font-weight: 700;
   font-size: 36px;
@@ -111,7 +120,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  margin: 0;
+  margin-top: 0 auto;
   border: none;
   border-radius: 4px;
   min-width: 200px;
@@ -119,8 +128,10 @@ body {
   padding: 11px 32px;
 }
 .button.filters {
-  background-color: var(--secondary-background-color);
-  color: var(--title-text-color);
+  padding: 6px 22px;
+  min-width: 73px;
+  margin-bottom: 0;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -128,9 +139,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  padding: 6px 22px;
-  min-width: 73px;
-  margin-bottom: 0;
+
+  background-color: var(--secondary-background-color);
+  color: var(--title-text-color);
 }
 .button.filters:hover,
 .button.filters:focus {
@@ -149,14 +160,14 @@ a {
 .adress > p {
   font-style: normal;
   letter-spacing: 0.03em;
-  color: var(--primary-white-color);
 
-  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
 .adress > a {
   font-style: normal;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -179,19 +190,29 @@ a {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-/* conteiner  выравниевание на странице */
+/* container  выравниевание на странице */
 .container {
   width: 1170px;
 
-  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
+}
+.site-nav,
+.contact-nav {
+  display: flex;
+}
+.site-nav .item + .item,
+.contact-nav .item + .item {
+  margin-left: 50px;
+  /* background-color: tomato; */
+}
+.main-nav {
+  display: flex;
 }
 /* section description */
 .section.desc {
   width: 1170px;
 
-  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
 
@@ -205,7 +226,6 @@ a {
 .section {
   width: 1170px;
 
-  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
@@ -238,7 +258,7 @@ ul {
 }
 .portfolio {
   width: 1170 px;
-  /* outline: 2px solid tomato; */
+
   margin-top: 0;
   margin-bottom: 94px;
 }
