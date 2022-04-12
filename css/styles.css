@@ -280,7 +280,18 @@ a {
   height: 252px;
   background-color: var(--background-color-hero-footer);
 }
-
+.feauters {
+  display: flex;
+}
+.feauters-items {
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  height: 75px;
+}
+.feauters-items + li {
+  margin-left: 30px;
+}
 /* стили портфолио */
 .container.portfolio {
   margin-bottom: 94px;
