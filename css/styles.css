@@ -340,6 +340,35 @@ a {
 .filters {
   margin-bottom: 50px;
 }
+.filters-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 94px;
+}
+.button.filters:not(last-child) {
+  margin-right: 8px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+.projects.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+.list-item + .list-item {
+  margin-left: 30px;
+}
+.list-item {
+  margin-bottom: 30px;
+}
+.projects.list > li:not (:last-child) {
+  margin-right: 30px;
+}
+
 .projects img {
   margin-bottom: 20px;
 }
