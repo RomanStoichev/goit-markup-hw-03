@@ -232,6 +232,7 @@ a {
 }
 .container-header {
   display: flex;
+  border-bottom: 1px solid #eeeeee;
 }
 .nav-items {
   display: flex;
