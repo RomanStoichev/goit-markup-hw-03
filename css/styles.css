@@ -17,6 +17,17 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 /* logo */
 .site-logo {
   font-family: "Raleway";
@@ -192,14 +203,26 @@ a {
 }
 /* container  выравниевание на странице */
 .container {
-  width: 1170px;
+  width: 1200px;
 
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
-.site-nav,
+.container-header {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
 .contact-nav {
   display: flex;
+  margin-left: auto;
 }
 .site-nav .item + .item,
 .contact-nav .item + .item {
@@ -229,13 +252,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
-}
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
 }
 
 .hero {
