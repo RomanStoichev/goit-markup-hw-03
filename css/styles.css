@@ -17,6 +17,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.portfolio-body {
+  background-color: #fff;
+}
 h1,
 h2,
 h3,
@@ -200,6 +203,9 @@ a {
 }
 /* portfolio */
 .portfolio-title {
+  width: 322px;
+  height: 36px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -207,6 +213,9 @@ a {
   letter-spacing: 0.06em;
 }
 .portfolio-text {
+  width: 322px;
+  height: 33px;
+
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -363,6 +372,7 @@ a {
   margin-left: 30px;
 }
 .list-item {
+  border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
 .projects.list > li:not (:last-child) {
@@ -374,4 +384,7 @@ a {
 }
 .projects h3 {
   margin-bottom: 4px;
+}
+.portfolio-list-text {
+  padding: 20px 24px;
 }
