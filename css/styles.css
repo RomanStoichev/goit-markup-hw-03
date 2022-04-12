@@ -300,7 +300,14 @@ a {
 .work-items + li {
   margin-left: 30px;
 }
-
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team + li {
+  margin-left: 30px;
+}
 /* стили портфолио */
 .container.portfolio {
   margin-bottom: 94px;
