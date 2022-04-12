@@ -292,6 +292,15 @@ a {
 .feauters-items + li {
   margin-left: 30px;
 }
+.work-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.work-items + li {
+  margin-left: 30px;
+}
+
 /* стили портфолио */
 .container.portfolio {
   margin-bottom: 94px;
