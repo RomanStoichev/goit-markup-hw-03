@@ -366,26 +366,37 @@ a {
 .filters {
   padding-bottom: 50px;
 }
-.filters-menu {
+
+.filters {
   display: flex;
-  align-items: center;
+  /* flex-direction: row; */
+
   justify-content: center;
   list-style: none;
   padding-top: 94px;
 }
-.button.filters:not(last-child) {
-  padding-right: 8px;
-}
-.projects {
+.filters-menu {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item + li {
+  padding-left: 8px;
+}
+.container.projects > ul {
+  /* display: flex;
+  justify-content: center; */
+  padding-bottom: 64px;
 }
 .projects.list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 64px;
+  margin: 0;
+  padding-left: 30 px;
+  padding-bottom: 30px;
+  justify-content: space-between;
 }
-/* .list-item + .list-item {
+/* .list-item + li {
   padding-left: 30px;
 } */
 .list-item {
