@@ -141,7 +141,7 @@ ul {
   border: none;
   border-radius: 4px;
   min-width: 200px;
-  height: 50px;
+
   padding: 11px 32px;
 
   background-color: var(--accent-color);
@@ -324,7 +324,9 @@ a {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-
+.team-visual > p {
+  padding-bottom: 30px;
+}
 .team > li + li {
   padding-left: 30px;
 }
@@ -396,16 +398,17 @@ a {
   padding-bottom: 30px;
   justify-content: space-between;
 }
+
+.list-item {
+  border: 1px solid #eeeeee;
+  margin-bottom: 30px;
+}
 /* .list-item + li {
   padding-left: 30px;
 } */
-.list-item {
-  border: 1px solid #eeeeee;
-  padding-bottom: 30px;
-}
-/* .projects.list > li:not (:last-child) {
+.projects.list > li:not (:last-child) {
   padding-right: 30px;
-} */
+}
 
 .projects img {
   padding-bottom: 20px;
